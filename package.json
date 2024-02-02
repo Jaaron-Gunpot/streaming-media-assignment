@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Good job! Your tests passed!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaaron-Gunpot/streaming-media-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaaron-Gunpot/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/Jaaron-Gunpot/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
