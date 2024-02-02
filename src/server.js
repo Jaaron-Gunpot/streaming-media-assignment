@@ -8,6 +8,10 @@ const port = process.env.PORT || process.env.NODE_PORT || 3000;
 const urlStruct = {
     '/': htmlHandler.getIndex,
     '/party.mp4': mediaHandler.getParty,
+    '/bling.mp3': mediaHandler.getBling,
+    '/bird.mp4': mediaHandler.getBird,
+    '/page2': htmlHandler.getPage2,
+    '/page3': htmlHandler.getPage3,
 };
 
 const onRequest = (request, response) => {
